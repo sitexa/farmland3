@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='GBK'?>
+<tree id='0'>
+    <item child='1' text='组织机构' id='1'>
+        <item child='1' text='红楼梦股份公司' id='60042'>
+            <item child='0' text='大观园物业管理公司' id='60048'>
+            </item>
+            <item child='0' text='怡红院文化传播公司' id='60047'>
+            </item>
+        </item>
+        <item child='1' text='西游记集团公司' id='60041'>
+            <item child='0' text='天堂律师事务所' id='60056'>
+            </item>
+            <item child='0' text='西方妖魔鬼怪演艺公司' id='60055'>
+            </item>
+            <item child='0' text='东土大唐旅游公司' id='60054'>
+            </item>
+            <item child='0' text='花果山水果种植场' id='60052'>
+            </item>
+        </item>
+        <item child='1' text='三国志股份公司' id='60040'>
+            <item child='0' text='北方钢铁集团' id='60059'>
+            </item>
+            <item child='0' text='江东人寿保险有限公司' id='60058'>
+            </item>
+            <item child='0' text='蜀汉房地产开发集团' id='60057'>
+            </item>
+        </item>
+        <item child='1' text='水浒传集团公司' id='60039'>
+            <item child='0' text='武氏烧饼厂' id='60065'>
+            </item>
+            <item child='0' text='阳谷娱乐有限公司' id='60064'>
+            </item>
+            <item child='0' text='景阳岗野生动物园' id='60063'>
+            </item>
+            <item child='0' text='梁山英雄酒业有限公司' id='60061'>
+            </item>
+        </item>
+        <item child='1' text='矛盾集团总公司' id='60033'>
+            <item child='0' text='矛盾商贸有限公司' id='60036'>
+            </item>
+            <item child='0' text='矛盾生物技术有限公司' id='60035'>
+            </item>
+            <item child='0' text='矛盾计算机软件有限公司' id='60034'>
+            </item>
+        </item>
+    </item>
+</tree>

@@ -1,0 +1,158 @@
+@charset
+"utf-8"
+;
+/* CSS Document */
+html {
+    overflow-y: scroll;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #414141;
+    line-height: 1.5em;
+    border: 3px;
+}
+
+.banner {
+    background: url(../images/hbg.jpg) no-repeat; /*position: relative;*/
+}
+
+.bg {
+    background-color: #66CCFF;
+    filter: Alpha(Opacity = 20);
+}
+
+.farminfo {
+    float: left;
+}
+
+.ann {
+    float: left;
+    margin-left: 4px;
+    padding: 6px;
+}
+
+.pnn {
+    background: url(../images/muban.png) no-repeat;
+    right: 10px;
+    top: -15px;
+    width: 150px;
+    height: 65px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: "黑体";
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+}
+
+/*
+.log {
+    width:255px;
+    height: 338px;
+    overflow-y: scroll;
+}
+*/
+
+.log {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 338px;
+}
+
+.crops {
+    border: 1px solid #bbb;
+    float: left;
+    width: 493px;
+    height: 574px;
+    margin: 0 auto;
+    background: url(../images/bg.png) repeat-y;
+}
+
+.crops li {
+    float: left;
+    color: #000000;
+    padding: 1px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.pic {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.pic li {
+    float: left;
+    padding: 1px;
+    margin: 8px;
++ * margin : 8 px;
+    _margin: 2px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.button {
+    BACKGROUND-COLOR: #eeeeee;
+    border: #cccccc 1px solid;
+}
+
+.plate {
+    background: url(img/plate.jpg);
+    border: 1px ridge #993300;
+    float: left;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.dx {
+    height: 135px;
+    overflow-y: hidden;
+    margin: 0 0 4px 0;
+    padding: 2px;
+    background-color: white;
+    border: solid #bbb 1px;
+
+}
+
+.list {
+    padding: 0;
+    margin: 2px;
+}
+
+a, td a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.fc {
+    background: url(img/fc.png);
+    height: 25px;
+}
+
+.hy {
+    background: url(img/hy.png);
+    height: 25px;
+}
+
+.zb {
+    background: url(img/zb.png);
+    height: 25px;
+}
+
+.fk {
+    background: url(img/fk.png);
+    height: 25px;
+}

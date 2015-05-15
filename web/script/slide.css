@@ -1,0 +1,5 @@
+.slideBox{margin:0; padding:0; width:1000px; overflow:hidden;}
+.slideBox ul{margin:0; padding:0;}
+.slideBox ul li{float:left; margin:0; padding:0 4px; list-style:none;}
+.slideBox ul li a{display:block; width:100px; word-wrap:break-word; text-decoration:none;}
+.slideBox ul li a img{border:none;}

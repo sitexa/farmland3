@@ -1,0 +1,95 @@
+
+.titbar{ padding:5px 5px 4px 5px; background:#B6FF6E; clear:both;}
+.bodybar{ margin:0; padding:2px 4px;}
+
+#menubar{ padding: 0; width: 100%; height:28px; border-top: 8px solid #99CC00; border-bottom: 4px solid #99CC00; background: transparent; voice-family: "\"}\""; voice-family: inherit; }
+#menubar ul{ margin:0; margin-left: 40px;  padding: 0; list-style: none; }
+#menubar li{ display: inline; margin: 0 2px 0 0; padding: 0; text-transform:uppercase; }
+#menubar a{
+	float: left; display: block; font: bold 14px Arial; color: white; text-decoration: none; margin: 0 1px 0 0;  padding: 5px 10px; background-color: #FFCC00; border-top: 1px solid white;border-bottom: 1px solid white;
+}
+#menubar a:hover{ background-color: #99CC00; color: white; }
+#menubar .current a{  background-color: #99CC00;  color: white; border-color: #99CC00; }
+
+.menubody{ border: 1px solid #99CC00; border-top:none;}
+
+.btnText{ float:left; margin:0 10px 0 0; background:url(../img/bn-bg.gif) no-repeat top left; display:block; overflow: hidden; font-size:12px; font-weight:bold; cursor:pointer;}
+.btnText span{ 
+	float:left; height:25px; line-height:25px; margin-left:10px; + *margin-left:5px; padding:0 10px 0 0px;  overflow:hidden; text-align:center; white-space:nowrap; display:block; background:url(../img/bn-bg.gif) no-repeat top right;
+}
+.btn-over{background:url(../img/bn-bg.gif) no-repeat left -25px;}
+.btn-over span{background:url(../img/bn-bg.gif) no-repeat right -25px;}
+
+.border-top{ border-top: 5px solid #B5C977; }
+.noBorder{ border:none; }
+.noPadding{ padding:0;}
+.paddingTop7{ padding-top:7px;}
+.lightgray{color:#A5A5A5;}
+.a-l{text-align:left}
+
+/* leave-message-show */
+
+.msgbox{ background: #F8FFF0}
+.msghead{ border-bottom:1px solid #B5C977; }
+.msgtitle,.msginfo{ margin:0 0 0 20px; padding:0; color:black;}
+.msgtitle h2{ margin:0; padding:0; display:inline; font-size:16px; color:green;}
+.msgbody{padding:1px 2px; background:#FFE7CE}
+.textareabox{ border:1px solid #99CC00;}
+.textareabox textarea{ width:350px; height:50px}
+.textareabox .button1{ width:50px; height:50px;}
+
+.menubody{ border: 1px solid #99CC00; border-top:none;}
+#messagebody{ width:100%; height:99%;}
+#messagebody th{ font-weight:normal;}
+tr{ height:30px;}
+
+#switchTab{ width:10px; margin:0px 2px; padding:10px 2px; background: #FFCC99; display:block; cursor:pointer}
+.wab{ }
+.wab .tit{ padding:3px 5px 1px 5px; background:#E3F1B4; border-bottom:1px solid #669900;font-weight:bold;}
+.off{display:none}
+
+
+.textDiv,.textInput{ width:100%; height:25px; line-height:25px; border:1px solid #669900; display:block}
+.textarea{ width:100%; height:200px; border:1px solid #669900; display:block; overflow-y:auto;}
+.friends{margin:0; padding:0; }
+.friends li{height:15px; padding:2px 5px; border:1px solid #669900; cursor:pointer;}
+.stranger{display:none;}
+
+.blank6{ clear:both; display:block;  height:6px; overflow:hidden;}
+
+/*-------------------------------*/
+/* inBox outBox*/
+.messages-box{ width:auto; margin:0;}
+
+#messages thead{height:35px; background:#FFCC00; border:1px solid #99CC00;}
+#messages th{padding-left:5px; text-align:left; border-right:1px solid #FFF; }
+#messages tr{height:30px; cursor:pointer;}
+#messages td{padding-left:5px; text-align:left; border-bottom:1px solid #B5C977;}
+
+.row-over{background:#EBFFC4}
+.row-checked{background:#EBFFC4}
+		
+.bar{ margin:2px 0 1px 0; padding:5px 5px 4px 5px; border:none; clear:both;}
+.rowLabel{width:10px; height:15px; background:url(../img/drag.gif) no-repeat; display:block; overflow:hidden;}
+
+.actionbar{ height:25px; margin:2px 0px; padding:3px 5px; text-align:left; font:normal 12px Arial;}
+.actionbar input{font: bold 12px Arial;}
+.b-bg{ padding-bottom:5px; background:url(../img/bar-bg.gif) repeat-x bottom;}
+.b-t1{ border-top: 1px solid #B5C977; }
+.b-b1{ border-bottom: 1px solid #B5C977; }
+
+/* send */
+.treeList{ width:150px; height:100%; padding:0; border:1px solid #99CC00;}
+.treeList .t-title{
+	padding:3px 5px 1px 5px; background:#E3F1B4; border-bottom:1px solid #669900;font-weight:bold;
+}
+.g-title{ 
+	height:11px; margin:0; padding:2px 0 2px 15px; background:url(../img/group-bg-green.gif) no-repeat; 
+	background-position:left 4px; cursor:pointer; font-weight:bold;
+}
+.fold{ background-position:left -18px;}
+.group{ padding:5px 10px;}
+.g-title a{ color:#0066CC;}
+.g-list{ margin:0;}
+.g-list ul{ margin:5px 0 0 0; list-style:none;}
+.g-list li{ padding:1px 0 1px 15px; list-style:none; cursor:pointer}

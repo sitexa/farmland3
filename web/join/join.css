@@ -1,0 +1,61 @@
+.box .step {
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    border: 1px solid #a0a;
+    float: left;
+    margin: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    width: 96px;
+    height: 60px;
+    padding-top: 6px;
+}
+
+.box .stepOn {
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    border: 1px solid #a0a;
+    background-color: #ffff00;
+    float: left;
+    margin: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    width: 96px;
+    height: 60px;
+    padding-top: 6px;
+}
+
+.box .stepOff {
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    border: 1px solid #a0a;
+    background-color: #ccffcc;
+    float: left;
+    margin: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    width: 96px;
+    height: 60px;
+    padding-top: 6px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+dl {
+    clear: both;
+    margin-bottom: 1px;
+    float: left;
+}
+
+dt, dd {
+    padding: 1px 5px;
+    float: left;
+}
+
+dt {
+    width:60px;
+    border-bottom: 1px dashed #ccc;
+}

@@ -1,0 +1,445 @@
+@charset
+"utf-8"
+;
+/* CSS Document */
+html {
+    overflow-y: scroll;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #414141;
+    line-height: 1.5em;
+}
+
+input, select {
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    color: #414141;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #414141
+}
+
+a:hover {
+    color: #F00;
+    text-decoration: underline;
+}
+
+#navbar a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #414141
+}
+
+#navbar a:hover {
+    font-size: 14px;
+    color: #F00;
+    text-decoration: underline;
+}
+
+td a {
+    text-decoration: underline;
+    color: #00f
+}
+
+td a:hover {
+    color: #F00;
+    text-decoration: underline;
+}
+
+img {
+    border: none
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1 {
+    padding-left: 10px;
+    color: red;
+}
+
+h2 {
+    padding-left: 10px;
+    color: red;
+}
+
+h3 {
+    padding-left: 10px;
+    color: red;
+}
+
+h3 a {
+    padding-left: 10px;
+    color: red;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: red;
+}
+
+.message {
+    color: green;
+}
+
+#container {
+    position: relative;
+    width: 985px;
+    margin: 0 auto;
+    /*border: solid #76AE2F 1px;*/
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#header {
+    height: auto;
+    border-bottom:#060 3px double;
+}
+
+#header #login {
+    width: auto;
+    padding: 5px 5px 5px 0;
+    text-align: right;
+    BORDER: solid #0f6 0px;
+}
+
+#header .content {
+    height: 84px;
+    BORDER: solid #0f6 0px;
+}
+
+#navbar {
+    height: 20px;
+    line-height: 20px;
+    margin: 32px 0 0 0;
+    padding: 0 0 0 135px;
+    overflow: hidden;
+}
+
+#navbar ul li {
+    float: left;
+    margin: 0 15px 0 0;
+    font-weight: bold;
+}
+
+#container {
+    position: relative;
+    width: 985px;
+    margin: 0 auto;
+    border: solid #76AE2F 1px;
+}
+
+#mainwrapper {
+    width: 985px;
+    margin: 5px auto;
+    padding: 0;
+    border: 0px solid #F00;
+}
+
+#topbar {
+    height: 170px;
+    margin: 5px 2px 5px 2px; /*background: url(../lf/images/banner.jpg) no-repeat;*/
+}
+
+#topbar .content {
+    width: 500px;
+    margin-left: 20px;
+    padding: 10px 20px 0 0;
+}
+
+#topbar .content h2 {
+    margin: 20px 0 0 0;
++ * margin : 30 px 0 0 0;
+    color: #575B52;
+}
+
+#topbar .content h5 {
+    margin: 5px 0 0 0;
+    color: #DAE9C8;
+}
+
+#leftbar {
+    float: left;
+    width: 150px;
+    margin: 0 0 0 5px;
++ * margin-left : 3 px;
+    border-right: solid #EDF3EF 1px
+}
+
+#centerbar {
+    float: left;
+    width: 800px;
+    margin: 0 5px;
++ * margin-left : 3 px;
+    border-right: solid #EDF3EF 1px
+
+}
+
+#rightbar {
+    float: right;
+    width: 250px;
+    margin: 0 5px 0 0;
++ * margin-right : 3 px;
+}
+
+#footer {
+    width: 95%;
+    margin: 20px auto 0 auto;
+    border-top: 1px solid #666;
+}
+
+#mainwrapper .rightcol {
+    float: right;
+    padding: 0 2px 0 0;
+    margin: 0;
+    clear: right;
+}
+
+#mainwrapper .leftcol {
+    float: left;
+    padding: 0 0 0 2px;
+    margin: 0;
+    border: none;
+}
+
+#mainwrapper .centercol {
+    float: left;
+    padding: 0 7px;
+    margin: 0;
+    width: 60%;
+    border: none;
+}
+
+/*classes*/
+.menu {
+    margin: 0px;
+    padding: 1px;
+    border: solid #B8DDD0 1px;
+}
+
+.menu .menubar {
+    height: 22px;
+    line-height: 22px;
+    padding-left: 10px;
+    font-family: "幼园", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #336600;
+    background: url(img/menubar.gif) repeat-x;
+    border-bottom: solid #B8DDD0 1px;
+    overflow: hidden;
+}
+
+.menu .menuitem {
+    padding: 2px 2px;
+}
+
+.menu .menuitem ul.nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.menu .menuitem ul li {
+    border: 1px dashed #FFF;
+    padding: 2px 2px;
+}
+
+.menuitem ul li a {
+    padding: 4px 0 0 2px;
+}
+
+/*classes*/
+
+.publish {
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    color: #036;
+    padding: 0 6px;
+    FONT-SIZE: 1em;
+    background-color: #ccffcc;
+}
+
+.box {
+    margin: 0;
+    border: dotted gray 0px;
+}
+
+.comment {
+    font: 12px Verdana, Arial, Helvetica, sans-serif;
+    margin: 0 0 16px 10px;
+    text-decoration: none;
+}
+
+#paging {
+    background: #ddd;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    clear: left;
+}
+
+#paging a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.even {
+    background: #fff;
+    margin-bottom: 2px;
+}
+
+.odd {
+    background: #ececff;
+    margin-bottom: 2px;
+}
+
+.list {
+    padding: 0;
+    margin: 5px 2px 2px 5px;
+}
+
+.right {
+    float: right;
+    margin: 0 2px 0 0;
+    color: #6D6D6D
+}
+
+.subject {
+    padding: 10px;
+}
+
+.content {
+    padding: 2px 0px;
+    margin: 0;
+}
+
+.content p {
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+
+.line {
+    border-top: 1px #76AE2F dotted;
+    margin: 2px 0 2px 0;
+}
+
+.a-bar {
+    float: left;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.link1 {
+    text-decoration: underline;
+}
+
+.link2 {
+    color: #1E50A2;
+}
+
+.link2:hover {
+    color: #BA2636;
+}
+
+.formbutton {
+    BORDER: #ccc 1px outset;
+    PADDING: 0;
+    MARGIN-TOP: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.9em;
+    BACKGROUND: url(button-bg.gif) repeat-x left top;
+    CURSOR: pointer;
+    COLOR: #666;
+}
+
+
+.border {
+    border: 1px solid #66CCCC
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.detail, .name {
+    float: right;
+    margin: 0 2px 0 0;
+    color: #6D6D6D
+}
+
+.name {
+    color: #93A701
+}
+
+.post-list {
+    float: left;
+    width: 99%;
+}
+
+.post-list .title-box {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 0 0 0;
+    width: 100%;
+    border-bottom: 1px dashed #C1FF84;
+    background: rgb(102, 204, 204);
+}
+
+.post-list .title-box .left {
+    float: left;
+    font-weight: bold;
+}
+
+.post-list .title-box .right {
+    float: right;
+    margin-top: 5px;
+}
+
+.post-list .content {
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #418200;
+    clear: both;
+}
+
+.button {
+    float: right;
+    width: 68px;
+    height: 19px;
+    margin: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.odd {
+    background: #ececff;
+    margin-bottom: 2px;
+}

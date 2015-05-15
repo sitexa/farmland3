@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+dl {
+    clear: both;
+    margin-bottom: 1px;
+    float: left;
+}
+
+dt, dd {
+    padding: 1px 5px;
+    float: left;
+}
+
+dt {
+    width:60px;
+    border-bottom: 1px dashed #ccc;
+}

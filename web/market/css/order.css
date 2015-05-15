@@ -1,0 +1,41 @@
+td.value {
+    background-repeat: repeat-x;
+    background-position: left top;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    padding: 0;
+    border-bottom: none;
+    background-color: transparent;
+}
+
+td {
+    padding: 1px 1px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+
+th{
+    padding: 1px 1px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #eee;
+}
+
+td.value img {
+    vertical-align: middle;
+    margin: 1px 1px 1px 0;
+}
+
+td.last {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+td.first {
+    border-top: 1px solid #e5e5e5;
+}
+
+table {
+    background-repeat: repeat;
+    background-position: left top;
+    width: 100%;
+    overflow-x: hidden;
+}

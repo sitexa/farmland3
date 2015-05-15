@@ -1,0 +1,10 @@
+table { margin:2px auto; border:0; background:#E4E4E4;}
+tr.odd td{ background:#EEFFEE; }	
+tr.over td{ background:#E3FFB9}
+td { height:28px; color:#678197; padding:.3em 2px; text-align:center; background:#FFFFFF}	
+thead th { 
+	background:#C3FF92; font-weight:normal; text-align:center; 
+	font:bold 1.2em/2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif; color:#138E00;
+}				
+tfoot th { background:#f4f9fe; text-align:center; }	
+tfoot th strong { font:bold 1.2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif; margin:.5em .5em .5em 0; color:#66a3d3; }	

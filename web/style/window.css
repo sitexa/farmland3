@@ -1,0 +1,16 @@
+/* CSS Document */
+.BaseWindow{position:absolute; top:100px; left:400px; width:500px; margin:0; padding:0; overflow:hidden; background:#FFF}
+.hd{height:27px; line-height:27px; background:#1F5699 url(img/bgx.png) repeat-x 0 -216px; cursor:move; overflow:hidden}
+.hd span.bg{display:block; height:27px; width:2px;  background:url(img/bg.png)}
+.hd span.bg-l{float:left; background-position:-1584px -108px; margin-left:0px;}
+.hd span.bg-r{float:right; background-position:-1586px -108px}
+.hd h4{float:left; color:#FFFFFF; font-size:14px; font-weight:bold; margin:0 5px 0 10px; padding:0; display:inline}
+.hd a.Aclose{
+	display:block; float:right; width:20px; height:20px; margin-right:2px; margin-top:3px; outline-color:-moz-use-text-color; outline-style:none; 
+	outline-width:medium; overflow:hidden; text-indent:300px; background:url(img/bg.png) -1332px 0; border:none;
+}
+.hd a.Aclose:hover{ background-position:-1332px -36px; }
+.cont{width:498px; border:solid #6C92AD 1px; border-top:none; overflow:hidden; }
+.ft{ width:478px; padding:10px; border:solid #6C92AD 1px; border-top:none; overflow:hidden;}
+
+

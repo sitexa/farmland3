@@ -1,0 +1,43 @@
+.dialog {
+    position: absolute; top: 200px; left: 300px; border: 0px #FF6600 solid; background: none; display: none; z-index: 999;
+}
+.dialog .header {
+    width: 400px; height: 30px; background: url(img/header.gif) no-repeat top left; border: 0px #FF6600 solid; overflow: hidden;
+}
+.dialog .header .h {
+    float: left; width: 370px; font-size: 15px; font-weight: bold; text-align: center; margin: 6px 0 0 0; border: 0px #FF6600 solid;
+}
+.dialog .header .x {
+    float: left; height: 20px; width: 20px; margin: 6px 0 0 0; border: 0px #6DA92F solid; background: url(img/X.gif) no-repeat top left; overflow: hidden; cursor: pointer;
+}
+.dialog .contents {
+    margin: 0; padding: 1px; width: 394px; font-size: 12px; color: #414342; border: 2px #6DA92F solid; border-top-width: 0px; background: #F2EEF4; overflow: hidden;
+}
+.dialog .contents .left {
+    float: left; margin: 0 2px 0 0; padding: 0; width: 130px; border: 0px #6DA92F solid; background: none;
+}
+.dialog .contents .left .img {
+    width: 100px; height: 100px; margin: 40px 0 0 15px; border: 1px #6DA92F solid; overflow: hidden;
+}
+.dialog .contents .left .img img { width: 100px; height: 100px; }
+.dialog .contents .right {
+    float: left; width: 255px; margin: 0; border: 0px #6DA92F solid; background: none; overflow: hidden;
+}
+.dialog .contents .right .r-h {
+    margin: 5px 0 0 0; font-size: 25px; color: #E97001; text-align: center; border: 0px #6DA92F dashed;
+}
+.dialog .contents .right .textBox { font-size: 15px; margin: 0; }
+.dialog .contents .right .textBox input{ width: 150px; margin: 0; font-size: 15px;}
+.dialog .contents .right .textBox textarea{ width: 170px; height:50px ; margin: 0; font-size: 15px;}
+.dialog .contents .right .textBox .leftBox { float: left; padding: 0; margin: 0; border-width: 0}
+.dialog .contents .bottom {
+    float:left; margin: 5px 0 0 0; padding: 5px 0 5px 0; clear: both; width: 100%; text-align: center; border-top: 2px #AE4B26 dashed; background: none;
+}
+.dialog .contents .bottom .rowBox{ width: auto; text-align: center;  padding: 2px 0; border-bottom: 1px #AE4B26 dashed; }
+.dialog .contents .bottom .ok, .cancel {
+   	clear:both; width: 70px; height: 25px; line-height: 25px; border: 0; margin: 0 0 0 10px; background: url(img/button.gif) no-repeat top left; cursor: pointer; overflow: hidden;
+}
+.dialog .contents .bottom .cancel { background-position: left -25px; }
+
+
+.dialog form { margin: 5px 0 0 0; padding: 0}

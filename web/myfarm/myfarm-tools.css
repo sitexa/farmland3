@@ -1,0 +1,183 @@
+.window {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    clear: both
+}
+
+.window .header {
+    height: 45px;
+    padding: 5px 0 0 0;
+    text-align: center;
+    overflow: hidden;
+    font-size: 35px;
+    font-weight: bold;
+    background: url(img/window-top.gif) no-repeat;
+}
+
+.window .body {
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 1px;
+    border: 2px #6DA92F solid;
+    border-top-width: 0px;
+    font-size: 14px;
+    background: #F4FFEA;
+    overflow: hidden;
+    clear: both;
+}
+
+.body .box {
+    float: left;
+    width: 594px;
+    margin: 2px 0 0 0;
+    border-bottom: 1px #669900 dashed;
+    text-align: center;
+}
+
+.body .box .left {
+    float: left;
+    width: 100px;
+    border: 0px #ACFF59 solid;
+}
+
+.body .box .left img {
+    width: 42px;
+    height: 42px;
+    border: 0px #FFCC99 dashed;
+    margin: 1px;
+}
+
+.body .box .left .box-img {
+    /*height: 101px;*/
+    margin: 0 auto;
+    width:44px;
+    height:44px;
+    border: 1px #FFCC99 dashed;
+}
+
+.body .box .right {
+    float: left;
+    width: 460px;
+    text-align: left;
+    border: 0px #ACFF59 solid;
+}
+
+.body .box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.body .box ul li {
+    list-style: none;
+    float: left;
+    width: 594px;
+}
+
+.body .box ul li .left {
+    text-align: right;
+}
+
+.body .box ul li .right {
+    text-align: left;
+}
+
+.body .bottomer {
+    float: left;
+    width: 594px;
+    height: 15px;
+}
+
+.body .title-box {
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #770000;
+}
+
+.body .notice {
+    height: 20px;
+    color: blue;
+    padding: 2px 1px;
+    border: 1px #6DA92F dashed;
+}
+
+.body .description {
+    /*height: 105px;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 0px #CCCCCC dashed;
+    background: #FAFAFA
+}
+
+.body .prices-box {
+    font-size: 14px;
+    color: #D90000;
+}
+
+.body .prices {
+    color: #FF8000
+}
+
+.box .link {
+    float: right;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.body select {
+    width: 100px;
+    font-size: 14px;
+}
+
+.body textarea {
+    width: 440px;
+    height: 60px
+}
+
+.body input {
+    font-size: 14px;
+}
+
+.body .password {
+    width: 120px;
+    height: 14px;
+    line-height: 14px;
+    color: #FF0000
+}
+
+.logs-box {
+    position: relative;
+    float: right;
+    margin: 20px 0 -300px 0;
+    width: 430px;
+    height: 277px;
+    border: 1px #CCCCCC dashed;
+    background: #E8E8E8;
+    display: block;
+    visibility:hidden;
+    overflow: hidden;
+}
+
+.logs-box .logs-header {
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+    background: #DBDBDB;
+    overflow: hidden;
+}
+
+.logs-box .close {
+    float: right;
+    font-size: 12px;
+    border: 2px #999999 dashed;
+}
+
+.logs-box .logs-content {
+    width: 100%;
+    height: 257px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+

@@ -1,0 +1,11 @@
+1,t_farm:
+删除:longitude,latitude,cropsSuitable,cropsOriginal,capacityOriginal,disposalOriginal,address
+
+2,t_farming_action,t_seed
+增加:status,以标记公开状态.
+
+3,Ip2City由于服务端速度极慢,严重影响运行速度,暂时禁用.
+
+4,发卡用户在未开通之前,不显示出来.status=0
+
+5,MyfarmController获取二庄主的农庄:

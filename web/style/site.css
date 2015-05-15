@@ -1,0 +1,371 @@
+@charset
+"utf-8"
+;
+/* CSS Document */
+html body {
+    padding: 0;
+    margin: 0;
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    color: #414141;
+    line-height: 1.5em;
+    font-size:12px;
+}
+
+input, select {
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    color: #414141;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #414141
+}
+
+a:hover {
+    color: #F00;
+    text-decoration: underline;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #ffffff
+}
+
+#navbar a:hover {
+    color: #F00;
+    text-decoration: underline;
+}
+
+td a {
+    text-decoration: underline;
+    color: #00f
+}
+
+td a:hover {
+    color: #F00;
+    text-decoration: underline;
+}
+
+img {
+    border: none
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1 {
+    padding-left: 10px;
+    color: red;
+}
+
+h2 {
+    padding-left: 10px;
+    color: red;
+}
+
+h3 {
+    padding-left: 10px;
+    color: red;
+}
+
+h3 a {
+    padding-left: 10px;
+    color: red;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: red;
+}
+
+.message {
+    color: green;
+}
+
+#container {
+    position: relative;
+    width: 985px;
+    margin: 0 auto;
+    border: solid #76AE2F 1px;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    border: solid #0F0 0px;
+}
+
+#header {
+    height: auto;
+}
+
+#header #login {
+    width: auto;
+    padding: 5px 0 5px 0;
+    text-align: right;
+    BORDER: solid #0f6 0px;
+}
+
+#header .content {
+    height: 84px;
+    BORDER: solid #0f6 0px;
+}
+
+#navbar {
+    height: 20px;
+    line-height: 20px;
+    margin: 32px 0 0 0;
+    padding: 0 0 0 135px;
+    overflow: hidden;
+}
+
+#navbar ul li {
+    float: left;
+    margin: 0 15px 0 0;
+    font-weight: bold;
+}
+
+#container {
+    position: relative;
+    width: 985px;
+    margin: 0 auto;
+    border: solid #76AE2F 1px;
+}
+
+#mainwrapper {
+    width: 985px;
+    margin: 5px auto;
+    padding: 0;
+    border: 0px solid #F00;
+}
+
+#topbar {
+    height: 170px;
+    margin: 0;
+    background: url(img/topbar.jpg) no-repeat;
+}
+
+#topbar .content {
+    width: 500px;
+    margin-left: 20px;
+    padding: 10px 20px 0 0;
+}
+
+#topbar .content h2 {
+    margin: 20px 0 0 0;
++ * margin : 30 px 0 0 0;
+    color: #575B52;
+}
+
+#topbar .content h5 {
+    margin: 5px 0 0 0;
+    color: #DAE9C8;
+}
+
+#leftbar {
+    float: left;
+    width: 350px;
+    margin: 0 0 0 5px;
++ * margin-left : 3 px;
+    border-right: solid #EDF3EF 1px
+}
+
+#centerbar {
+    float: left;
+    width: 350px;
+    margin: 0 5px;
++ * margin-left : 3 px;
+    border-right: solid #EDF3EF 1px
+
+}
+
+#rightbar {
+    float: right;
+    width: 250px;
+    margin: 0 5px 0 0;
++ * margin-right : 3 px;
+}
+
+#footer {
+    width: 95%;
+    margin: 20px auto 0 auto;
+    border-top: 1px solid #666;
+}
+
+#mainwrapper .rightcol {
+    float: right;
+    width: 23%;
+    padding: 0 2px 0 0;
+    margin: 0;
+    clear: right;
+}
+
+#mainwrapper .leftcol {
+    float: left;
+    width: 15%;
+    padding: 0 0 0 2px;
+    margin: 0;
+    border: none;
+}
+
+#mainwrapper .centercol {
+    float: left;
+    padding: 0 7px;
+    margin: 0;
+    width: 60%;
+    border: none;
+}
+
+.box {
+    margin: 0;
+    border: dotted gray 0px;
+}
+
+.comment {
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    margin: 0 0 16px 10px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 2px 0px;
+    margin: 0;
+}
+
+.content p {
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+/*classes*/
+.menu {
+    margin: 0px;
+    padding: 1px;
+    border: solid #B8DDD0 1px;
+}
+
+.menu .menubar {
+    height: 22px;
+    line-height: 22px;
+    padding-left: 10px;
+    font-family: "幼园", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #336600;
+    background: url(img/menubar.gif) repeat-x;
+    border-bottom: solid #B8DDD0 1px;
+    overflow: hidden;
+}
+
+.menu .menuitem {
+    padding: 2px 2px;
+}
+
+.menu .menuitem ul.nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.menu .menuitem ul li {
+    border: 1px dashed #FFF;
+    padding: 2px 2px;
+}
+
+.menu .menuitem ul li.select {
+    border-color: #BAE2D3;
+    background: #CFFBEA
+}
+
+.menu .menuitem img {
+    border: 1px #FF9933 solid;
+}
+
+.menu .menuitem .left-menu {
+    margin: 2px
+}
+
+.menuitem ul li a {
+    padding: 4px 0 0 2px;
+}
+
+.textBox {
+    margin: 0px;
+    padding: 1px;
+    border: solid #B8DDD0 1px;
+}
+
+.textBox .t-title {
+    height: 22px;
+    line-height: 22px;
+    padding-left: 10px;
+    font-family: "幼园", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #336600;
+    background: url(img/menubar.gif) repeat-x;
+    border-bottom: solid #B8DDD0 1px;
+    overflow: hidden;
+}
+
+.textBox .t-body {
+    padding: 2px 2px;
+}
+
+/*lei 2010.4.22*/
+.title1 {
+    width: auto;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 8px;
+    font-weight: bold;
+    border: 1px solid #97B837;
+    background: url(img/title1-bg.gif) no-repeat top left;
+}
+
+.table1 {
+    width: 100%;
+    margin: 0;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.table1 thead {
+    background: #FFCC00;
+    border: 0px solid #99CC00;
+}
+
+.table1 th {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 5px;
+    text-align: left;
+    border-right: 1px solid #FFF;
+}
+
+.table1 tr {
+    height: 30px;
+    line-height: 30px;
+}
+
+.table1 td {
+    padding-left: 5px;
+    text-align: left;
+    border-bottom: 1px solid #B5C977;
+}

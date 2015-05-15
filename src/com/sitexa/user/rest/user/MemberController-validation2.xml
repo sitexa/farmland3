@@ -1,0 +1,24 @@
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="member.realname">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+        <field-validator type="stringlength">
+            <param name="maxLength">50</param>
+            <message key="stringLength"/>
+        </field-validator>
+    </field>
+    <field name="member.nickname">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+        <field-validator type="stringlength">
+            <param name="maxLength">50</param>
+            <message key="stringLength"/>
+        </field-validator>
+    </field>
+</validators>

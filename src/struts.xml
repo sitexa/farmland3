@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <constant name="struts.locale" value="zh_CN"/>
+    <constant name="struts.i18n.encoding" value="UTF-8"/>
+    <constant name="struts.action.extension" value="action,do,xhtml,json,"/>
+    <constant name="struts.ui.theme" value="simple"/>
+    <constant name="struts.devMode" value="false"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+    <constant name="struts.custom.i18n.resources" value="default"/>
+    <constant name="struts.serve.static.browserCache" value="true"/>
+    <constant name="struts.convention.action.suffix" value="Controller"/>
+    <constant name="struts.convention.action.mapAllMatches" value="true"/>
+    <constant name="struts.convention.default.parent.package" value="rest-default"/>
+    <constant name="struts.convention.package.locators" value="rest"/>
+    <constant name="struts.convention.result.path" value="/WEB-INF/content"/>
+    <constant name="struts.multipart.saveDir" value="F:\apacheroot2\farmlander"/>
+    <constant name="struts.multipart.maxSize" value="2048000"/>
+
+    <package name="default" extends="struts-default">
+        <interceptors>
+            <interceptor-stack name="defaultStack">
+                <interceptor-ref name="exception"/>
+                <interceptor-ref name="servletConfig"/>
+                <interceptor-ref name="actionMappingParams"/>
+                <interceptor-ref name="staticParams"/>
+                <interceptor-ref name="params"/>
+            </interceptor-stack>
+        </interceptors>
+        <global-results>
+            <result name="error" type="freemarker">/error.jsp</result>
+        </global-results>
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error">
+            </exception-mapping>
+        </global-exception-mappings>
+    </package>
+</struts>

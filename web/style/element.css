@@ -1,0 +1,8 @@
+.btn{ float:left; height:24px; margin:0; padding-right:10px; background:url(img/button-bg-gray.gif) no-repeat right -24px; cursor:pointer;}
+.btn span{ float:left; font-size:14px; padding:5px 0px 3px 10px; background:url(img/button-bg-gray.gif) no-repeat top left; white-space:nowrap; cursor:pointer;-moz-user-select:none;}
+.btn-over{ background-position:right -72px }
+.btn-over span{ background-position:left -48px;}
+.btn-mdown{ background-position:right -120px }
+.btn-mdown span{ background-position:left -96px;}
+.mg5{ margin-right:5px}
+

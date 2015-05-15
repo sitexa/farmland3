@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <apacheroot>F:/apacheroot2</apacheroot>
+    <domain>www.farmlander.com</domain>
+
+    <app>
+        <name>farm</name>
+        <root>F:/farmlander</root>
+    </app>
+
+    <database>
+        <server>127.0.0.1</server>
+        <db>farmlander</db>
+        <username>app</username>
+        <password>1111</password>
+    </database>
+    <struts>
+        <multipart>
+            <saveDir>F:/apacheroot2/farmlander</saveDir>
+            <maxSize>2048000</maxSize>
+        </multipart>
+    </struts>
+    <hibernate>
+        <configuration>
+            <path>D:/farmlander/config</path>
+        </configuration>
+    </hibernate>
+    <imgurl>http://img1.farmlander.com/</imgurl>
+    <bannedhost>1.1.1.1</bannedhost>
+</root>

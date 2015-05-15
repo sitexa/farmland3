@@ -1,0 +1,13 @@
+2010.6.7
+1,增加：t_farm_plan;t_farm_store;
+FarmPlan.java,FarmPlanDAO.java,FarmPlan.hbm.xml;
+FarmStore.java,FarmStoreDAO.java,FarmStore.hbm.xml;
+2,弃用：t_crops_status;
+切断与t_crops的关联；
+删除：CropStatus.java;CropStatusDAO.java;CropStatus.hbm.xml;
+删除：CropStatusService.java
+3,增加：t_faction,弃用t_Farming_Action;
+修改:T_Farming，增加：FactionId,弃用：FarmingActionId;
+删除：FarmingAction.java,FarmingActionDAO.java,FarmingAction.hbm.xml;
+
+

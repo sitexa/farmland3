@@ -1,0 +1,16 @@
+/*2010.6.21*/
+body{margin:0;padding:0;}
+.imgBox{float:left; width:85px; height:110px; padding:5px 12px; + *padding:5px 11px;}
+.imgBox .img{width:85px; height:85px; border:1px solid green; cursor:pointer; overflow:hidden;}
+.img img{width:85px; height:85px;}
+.imgBox .info{width:87px; padding-top:3px; text-align:center; cursor:pointer;}
+		
+.left{float:left; width:200px; text-align:center;}
+.left img{width:150px; height:150px; border:1px solid #FFCC99}
+.right{float:left; width:300px; background:lime;}
+
+.seedName{text-align:center; font-size:36px; font-weight:bold;}
+.description{height:200px; background:#FAFAFA; text-align:left; overflow-x:hidden; overflow-y:auto; }
+.info{padding-top:3px; text-align:center;}
+
+.line{height:0px; border-top:2px dotted green; overflow:hidden; clear:both;}

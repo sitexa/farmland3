@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:sqlserver://127.0.0.1:1433;databaseName=farmlander</property>
+        <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="connection.username">app</property>
+        <property name="connection.password">1111</property>
+
+        <property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
+        <property name="show_sql">false</property>
+
+        <!--for log4j-->
+        <property name="org.hibernate.SQL">false</property>
+        <property name="org.hibernate.pretty">false</property>
+        <property name="org.hibernate.transaction">false</property>
+        <property name="org.hibernate.jdbc">false</property>
+        <property name="org.hibernate">false</property>
+
+        <!-- for batch operation-->
+        <property name="hibernate.jdbc.batch_size">20</property>
+
+        <!--post mapping-->
+        <mapping resource="com/sitexa/post/data/Activity.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Affair.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Announce.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Business.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Case.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Category.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/CategoryProperty.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Evaluation.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Filter.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Message.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Participant.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Poll.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/PollOption.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/PollVote.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Post.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/PostType.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/PostProperty.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/PostPicture.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/House.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Scenery.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/Csa.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/LandPost.hbm.xml"/>
+        <mapping resource="com/sitexa/post/data/FarmPost.hbm.xml"/>
+
+        <!--site mapping-->
+        <mapping resource="com/sitexa/site/data/City.hbm.xml"/>
+        <mapping resource="com/sitexa/site/data/Site.hbm.xml"/>
+        <mapping resource="com/sitexa/site/data/SiteProperty.hbm.xml"/>
+        <mapping resource="com/sitexa/site/data/SiteType.hbm.xml"/>
+        <mapping resource="com/sitexa/site/data/SitePicture.hbm.xml"/>
+        <mapping resource="com/sitexa/site/data/SiteMember.hbm.xml"/>
+
+        <!--user mapping-->
+        <mapping resource="com/sitexa/user/data/Member.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/MemberPosition.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/MemberProperty.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/MemberPicture.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/MemberRight.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/MemberType.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/Friend.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/FriendGroup.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/Position.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/PositionRight.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/Resident.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/Right.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/User.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/Visitor.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/MemberCredit.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/MemberCreditLog.hbm.xml"/>
+        <mapping resource="com/sitexa/user/data/LeaveMessage.hbm.xml"/>
+
+        <!--system mapping-->
+        <mapping resource="com/sitexa/sys/data/Role.hbm.xml"/>
+        <mapping resource="com/sitexa/sys/data/RoleInUser.hbm.xml"/>
+        <mapping resource="com/sitexa/sys/data/Menu.hbm.xml"/>
+        <mapping resource="com/sitexa/sys/data/MenuInRole.hbm.xml"/>
+        <mapping resource="com/sitexa/sys/data/Func.hbm.xml"/>
+        <mapping resource="com/sitexa/sys/data/FuncInRole.hbm.xml"/>
+        <mapping resource="com/sitexa/sys/data/FuncInUser.hbm.xml"/>
+        <mapping resource="com/sitexa/sys/data/ViewStats.hbm.xml"/>
+        <mapping resource="com/sitexa/sys/data/ViewStatsAddr.hbm.xml"/>
+        <mapping resource="com/sitexa/sys/data/ViewStatsUri.hbm.xml"/>
+        <mapping resource="com/sitexa/sys/data/Sequence.hbm.xml"/>
+
+        <!--farm mapping-->
+        <mapping resource="com/sitexa/farm/data/Farm.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/FarmOwner.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/FarmPicture.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/FarmProduct.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/FarmVisit.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/Farming.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/Faction.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/Land.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/LandPicture.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/Service.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/Trusteeship.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/VisitPicture.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/Crops.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/Seed.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/RuleType.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/FarmingRule.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/FarmPlan.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/FarmStore.hbm.xml"/>
+        <mapping resource="com/sitexa/farm/data/RentMode.hbm.xml"/>
+
+        <!--market mapping-->
+        <mapping resource="com/sitexa/market/data/OrderStatus.hbm.xml"/>
+        <mapping resource="com/sitexa/market/data/Order.hbm.xml"/>
+        <mapping resource="com/sitexa/market/data/OrderItem.hbm.xml"/>
+        <mapping resource="com/sitexa/market/data/Market.hbm.xml"/>
+        <mapping resource="com/sitexa/market/data/MarketPicture.hbm.xml"/>
+        <mapping resource="com/sitexa/market/data/MarketCategory.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

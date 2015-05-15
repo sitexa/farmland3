@@ -1,0 +1,44 @@
+.dialog{
+	position: absolute;
+	top: 527px;
+	left: 734px;
+	border: 0px #FF6600 solid;
+	display: none;
+}
+.dialog .header{
+	width: 250px;
+	height: 30px;
+	background: url(img/header1.gif) no-repeat top left;
+	border: 0px #FF6600 solid;
+	overflow: hidden;
+}
+.dialog .header .h{
+	float: left;
+	width: 220px;
+	font-weight: bold;
+	text-align: center;
+	margin: 6px 0 0 0;
+	border: 0px #FF6600 solid;
+}
+.dialog .header #x{
+	float: left;
+	height: 20px;
+	width: 20px;
+	margin: 6px 0 0 0;
+	border: 0px #6DA92F solid;
+	background: url(img/X.gif) no-repeat top left;
+	overflow: hidden;
+	cursor: pointer;
+}
+.dialog .contents{
+	width: 244px;	/*400-4-2*/
+	height: 150px;
+	color: #414342;
+	padding: 1px;
+	border: 2px #6DA92F solid;
+	border-top-width: 0px;
+	overflow: hidden;
+	background: #F2EEF4;
+}
+.contents .linkbox{ margin:5px 0 10px 5px}
+.linkbox a{ margin-top:2px; color:#0066FF; text-decoration:underline;}

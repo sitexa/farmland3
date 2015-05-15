@@ -1,0 +1,87 @@
+    <div class="banner">
+        <div class="farminfo">
+            <table bgcolor="white" border="0">
+                <tr>
+                    <td bgcolor="white">
+                        <img src="<%=request.getContextPath()%>/images/lft-huabian.png" alt="member-pic"/>
+                    </td>
+                    <td bgcolor="white">
+                        <table width="350" bgcolor="white">
+                            <tr>
+                                <td width="90" bgcolor="white">
+                                    <s:if test="farm.member.pictures.size>0">
+                                        <s:iterator value="farm.member.pictures" status="its">
+                                            <s:if test="#its.index<1">
+                                                <img src="<%=request.getContextPath()%>/image?type=m&picId=${picId}"
+                                                     title="${picTitle}"
+                                                     width="88px" height="88px"/>
+                                            </s:if>
+                                        </s:iterator>
+                                    </s:if>
+                                    <s:else>
+                                        <img src="<%=request.getContextPath()%>/myfarm/img/member-pic.gif"
+                                             title="member-pic"
+                                             width="88px" height="88px"/>
+                                    </s:else>
+                                </td>
+                                <td bgcolor="white">
+                                    <span id="farm_farmName">${farm.farmName}【${farm.acreage }M<sup>2</sup>】</span>
+                                    【<a href="<%=request.getContextPath()%>/myfarm/farm/${farm.farmId}/edit">管理农庄</a>】
+                                    <br>
+                                    所属农场：
+                                    <a href="<%=request.getContextPath()%>/buy/starLand/${farm.starLand.landId}">
+                                        ${farm.starLand.landName}
+                                    </a> <br>
+                                    农庄主：
+                                    <a href="<%=request.getContextPath()%>/user/member/${farm.member.memberId}">${farm.member.realname}</a>
+                                    <s:if test="farm.owners.size>0">
+                                        <s:iterator value="farm.owners" status="its">
+                                            <a href="<%=request.getContextPath()%>/user/member/${member.memberId}">${member.realname}</a>
+                                        </s:iterator><br>
+                                    </s:if>
+                                    <s:if test="farms.size>1">
+                                        其他农庄：
+                                        <s:iterator value="farms" status="its">
+                                            <s:if test="farmId!=farm.farmId">
+                                                <a href="<%=request.getContextPath()%>/work/work/${farmId}">
+                                                        ${farmName}(${acreage }M<sup>2</sup>)
+                                                </a>
+                                            </s:if>
+                                        </s:iterator><br>
+                                    </s:if>
+                                    花币：<span style="color:red">${credit.credit}</span>￥
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="ann">
+            <marquee id="externalmarquee"
+                     direction=up scrollAmount=2
+                     style="width:180px;height:100%;color:green;"
+                     onMouseover="this.scrollAmount=0"
+                     onMouseout="this.scrollAmount=2">
+                <s:iterator value="newNotices">
+                    <a href="<%=request.getContextPath()%>/post/starLand-post/${id}">${name}${content}</a>
+                </s:iterator>
+            </marquee>
+        </div>
+        <div class="ann">
+            <marquee id="externalmarquee"
+                     direction=up scrollAmount=2
+                     style="width:180px;height:100%;color:green;"
+                     onMouseover="this.scrollAmount=0"
+                     onMouseout="this.scrollAmount=2">
+                <s:iterator value="newPicks">
+                    <a href="<%=request.getContextPath()%>/post/farm-post/${id}">${name}${content}</a>
+                </s:iterator>
+            </marquee>
+            <img src="<%=request.getContextPath()%>/images/rt-huabian.png" alt="member-pic"/>
+        </div>
+        <div class="pnn">
+            ${farm.slogan}
+        </div>
+        <div class="clear"></div>
+    </div>
